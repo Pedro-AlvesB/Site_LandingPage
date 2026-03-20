@@ -1,0 +1,11 @@
+lista de tags hmtl:
+<tittle> criar um titulo
+<ul> criar lista desordenada
+<li> list item
+<video> cria video
+<image> cria uma imagem
+<p> criar um paragrafo
+<!DOCTYPE html> fala pro navagador que meu documento é do tipo html
+<head> cabeça lida pelo navegador
+<body> conteúdo visivel
+<h1> texto
