@@ -1,6 +1,11 @@
-/* ── Reset & Base ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
 :root {
   --azul:      #1A3A6B;
   --azul-claro:#2356A8;
@@ -14,98 +19,52 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--preto);
-  background: var(--branco);
-  line-height: 1.6;
+  background-color: #fff9ea;
 }
 
 img { display: block; max-width: 100%; }
 
-/* ══════════════════════════════
-   HEADER
-══════════════════════════════ */
-header {
-  background: var(--azul);
-  position: relative;
-  overflow: hidden;
-  min-height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-header .header-decoracao {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 260px;
-  height: 100%;
-  display: flex;
-}
-
-header .header-decoracao span        { flex: 1; }
-header .header-decoracao span:nth-child(1) { background: #1E4D99; }
-header .header-decoracao span:nth-child(2) { background: #2356A8; }
-header .header-decoracao span:nth-child(3) { background: #1A3A6B; }
-
-header .logo-wrapper {
-  position: relative;
-  z-index: 2;
-  background: var(--branco);
-  border-radius: 8px;
-  padding: 10px 16px;
-}
-
-header .logo-wrapper img {
-  height: 60px;
-  width: auto;
-}
-
-/* ══════════════════════════════
-   NAV
-══════════════════════════════ */
+/* É A N*/
 nav {
-  background: var(--branco);
-  border-bottom: 1px solid var(--borda);
-  padding: 0 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 54px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav .nav-links {
-  display: flex;
-  gap: 32px;
+      display: flex;
+    list-style: none;
+    gap: 48px;
+
 }
 
 nav .nav-links span {
-  font-size: 14px;
-  color: var(--texto);
-  cursor: pointer;
-  transition: color .2s;
+     text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
 }
 
 nav .nav-links span:hover { color: var(--azul-claro); }
 
 nav button.btn-quero-doar {
-  background: var(--azul);
-  color: var(--branco);
-  border: none;
-  border-radius: 6px;
-  padding: 9px 22px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background .2s;
+ border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #014A8E;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 3s ease;
 }
 
-nav button.btn-quero-doar:hover { background: var(--azul-claro); }
+nav button.btn-quero-doar:hover { 
+    background-color: #f8d477;
+ }
 
 /* ══════════════════════════════
    MAIN
