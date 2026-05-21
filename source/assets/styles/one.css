@@ -397,11 +397,15 @@ header {
     width: 50%;
 }
 
+
+
 #historia-texto h2 {
     font-size: 2.2rem;
     font-weight: 800;
     color: #1A1A1A;
     margin: 8px 0 20px;
+    white-space: pre-line;
+    text-align: justify;
 }
 
 #historia-texto p {
@@ -409,7 +413,11 @@ header {
     color: #444444;
     margin-bottom: 14px;
     line-height: 1.8;
+    white-space: pre-line;
+    text-align: justify;
+
 }
+
 
 @media screen and (max-width: 1170px) {
     #nossa-historia {

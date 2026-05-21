@@ -10,35 +10,28 @@
     <title>Lar do Caminho</title>
 </head>
 <body>
-
+<!-- mudança em header -->
     <header>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Navegação principal">
             <a id="nav_logo" href="#home">
                 <img src="source/assets/images/logo lar do caminho.png" alt="Lar do Caminho" />
             </a>
 
-            <ul id="nav_list">
+            <div id="nav_menu_container">
+                <ul id="nav_list">
                 <li class="nav-item active"><a href="#home">Início</a></li>
                 <li class="nav-item"><a href="#nossa-historia">Nossa História</a></li>
                 <li class="nav-item"><a href="#parceiros">Parceiros</a></li>
-                
+                <li class="nav-item mobile-only"><a href="#doacao">Doe agora</a></li>
             </ul>
+            </div>
 
-            <a href="#doacao" class="btn-default">Quero doar</a>
+            <a href="#doacao" class="btn-default desktop-only">Quero doar</a>
 
-            <button id="mobile_btn">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-        </nav>
+            <button id="mobile_btn" aria-label="Abrir menu de navegação">
+            <i class="fa-solid fa-bars"></i>
 
-        <nav id="mobile_menu">
-            <ul id="mobile_nav_list">
-                <li class="nav-item"><a href="#home">Início</a></li>
-                <li class="nav-item"><a href="#nossa-historia">Nossa História</a></li>
-                <li class="nav-item"><a href="#parceiros">Parceiros</a></li>
-                <li class="nav-item"><a href="#doacao">Doe agora</a></li>
-            </ul>
-            <a href="#doacao" class="btn-default">Quero doar</a>
+        </button>    
         </nav>
     </header>
 
@@ -132,16 +125,11 @@
                 <h2 class="section-title">Nossa Trajetória</h2>
                 <h2>Nossa História</h2>
                 <p>
-                    Fundado em 21 de fevereiro de 1954 pelo casal Saul e Isabel Gouveia,
-                    o Lar do Caminho nasceu do ideal de oferecer mais do que um abrigo:
-                    um verdadeiro ambiente familiar baseado no amor, na dignidade e na fraternidade.
+                   O <strong>Lar do Caminho </strong> nasceu em 1968 de um <strong>gesto puro de acolhimento:</strong> um casal que abriu as portas para um <strong>bebê abandonado</strong> e, com o tempo, para <strong>muitos outros</strong>.  O que começou como um abraço individual cresceu e, em 1974, tornou-se a <strong>Sociedade Beneficente Lar do Caminho</strong> , unindo voluntários em torno de uma missão maior.
                 </p>
                 <p>
-                    O que começou em uma pequena casa na Vila Mariana, em São Paulo,
-                    tornou-se uma obra de referência no cuidado infantil. Fomos pioneiros
-                    no modelo de "casas-lares", substituindo grandes dormitórios impessoais
-                    por lares acolhedores, onde crianças e adolescentes recebem formação
-                    integral — educacional, moral e afetiva.
+                    <strong>Mais de 50 anos de história</strong> , o Lar do Caminho transformou-se em uma <strong >referência</strong> de acolhimento que vai <strong>muito além de um abrigo</strong> convencional.   Diferente de instituições temporárias, aqui construímos uma base sólida de  respeito e dignidade, onde cada criança é vista em sua individualidade. 
+                    <strong>Atuamos desde 1974</strong> como uma <strong>Grande Família</strong>, oferecendo não apenas um teto, mas o suporte psicológico e educacional necessário para  <strong>curar feridas do passado</strong>  E preparar esses jovens para um <strong>futuro de autonomia </strong>. É esse cuidado dedicado e ininterrupto que nos torna <strong>um verdadeiro lar</strong>.
                 </p>
             </article>
         </section>
@@ -179,10 +167,10 @@
 
                     <li class="parceiro-item">
                         <span class="parceiro-logo">
-                            <img class="parceiro-logo" src="source/assets/images/feira escandinava.png" alt="Feira Escalinatas" />
+                            <img class="parceiro-logo" src="source/assets/images/feira escandinava.png" alt="Feira Escandinava" />
                         </span>
                         <article class="parceiro-info">
-                            <h4>Feira Escalinatas</h4>
+                            <h4>Feira Escandinava</h4>
                             <p>Associação beneficente.</p>
                         </article>
                     </li>
