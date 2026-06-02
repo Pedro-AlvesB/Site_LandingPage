@@ -1,111 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lar do Caminho — acolhimento de crianças e adolescentes em situação de vulnerabilidade desde 1968. Faça sua doação e transforme vidas.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description"
+        content="Lar do Caminho — acolhimento de crianças e adolescentes em situação de vulnerabilidade desde 1968. Faça sua doação e transforme vidas.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="source/assets/styles/reset.css">
     <link rel="stylesheet" href="source/assets/styles/one.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Lar do Caminho</title>
 </head>
+
 <body>
     <header>
         <nav id="navbar" aria-label="Navegação principal">
             <a id="nav_logo" href="#home">
                 <img src="source/assets/images/logo_lar.svg" alt="Lar do Caminho" />
             </a>
- 
+
             <ul id="nav_list">
-                <li class="nav-item active"><a href="#home">Início</a></li>
-                <li class="nav-item"><a href="#nossa-historia">Nossa História</a></li>
-                <li class="nav-item"><a href="#parceiros">Parceiros</a></li>
+                <a class="nav-item active" href="#home">Início</a>
+                <a class="nav-item" href="#nossa-historia">Nossa História</a>
+                <a class="nav-item" href="#parceiros">Parceiros</a>
             </ul>
- 
+
             <a href="#doacao" class="btn-default desktop-only">Quero doar</a>
- 
-            <button id="mobile_btn" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile_menu">
+
+            <button id="mobile_btn" aria-label="Abrir menu de navegação" aria-expanded="false"
+                aria-controls="mobile_menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </nav>
- 
+
         <nav id="mobile_menu" aria-label="Menu mobile" aria-hidden="true">
             <ul id="mobile_nav_list">
-                <li class="nav-item"><a href="#home">Início</a></li>
-                <li class="nav-item"><a href="#nossa-historia">Nossa História</a></li>
-                <li class="nav-item"><a href="#parceiros">Parceiros</a></li>
-                <li class="nav-item"><a href="#doacao">Doe agora</a></li>
+                <a class="nav-item" href="#home">Início</a>
+                <a class="nav-item" href="#nossa-historia">Nossa História</a>
+                <a class="nav-item" href="#parceiros">Parceiros</a>
+                <a class="nav-item" href="#doacao">Doe agora</a>
             </ul>
         </nav>
     </header>
- 
+
     <main id="content">
- 
+
         <section id="home">
             <span class="shape"></span>
- 
+
             <article id="cta">
                 <h1 class="title">
                     Formar cidadãos íntegros,<br>
                     <span>independentes</span> e engajados.
                 </h1>
- 
+
                 <p class="description">
                     Ajudamos crianças e adolescentes em situação de vulnerabilidade
                     a construir um futuro com dignidade, amor e fraternidade.
                 </p>
- 
+
                 <ul id="cta_buttons">
-                    <li>
-                        <a href="#doacao" class="btn-default">Faça sua doação</a>
-                    </li>
-                    <li>
-                        <a href="tel:+5511979290495" id="phone_button">
-                            <i class="fa-solid fa-phone"></i>
-                            (11) 97929-0495
-                        </a>
-                    </li>
+                    <a href="#doacao" class="btn-default">Faça sua doação</a>
+                    <a href="tel:+5511979290495" id="phone_button">
+                        <i class="fa-solid fa-phone"></i>
+                        (11) 97929-0495
+                    </a>
                 </ul>
-                
+
                 <ul class="social-media-buttons">
-                    <li><a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href="https://www.instagram.com/lardocaminho.oficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com/LarDoCaminho" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/lardocaminho.oficial/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/LarDoCaminho" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
                 </ul>
             </article>
- 
+
             <figure id="banner">
                 <img src="source/assets/images/1 1.svg" alt="Criança sorrindo" />
             </figure>
         </section>
- 
+
         <section id="nossa-historia">
             <figure id="historia-imagem">
                 <img src="source/assets/images/2 1.svg" alt="Criança feliz" />
             </figure>
- 
+
             <article id="historia-texto">
                 <h2>Nossa História</h2>
                 <p>
-                    O <strong>Lar do Caminho</strong> nasceu em 1968 de um <strong>gesto puro de acolhimento:</strong> um casal que abriu as portas para um <strong>bebê abandonado</strong> e, com o tempo, para <strong>muitos outros</strong>. O que começou como um abraço individual cresceu e, em 1974, tornou-se a <strong>Sociedade Beneficente Lar do Caminho</strong>, unindo voluntários em torno de uma missão maior.
+                    O <strong>Lar do Caminho</strong> nasceu em 1968 de um <strong>gesto puro de acolhimento:</strong>
+                    um casal que abriu as portas para um <strong>bebê abandonado</strong> e, com o tempo, para
+                    <strong>muitos outros</strong>. O que começou como um abraço individual cresceu e, em 1974,
+                    tornou-se a <strong>Sociedade Beneficente Lar do Caminho</strong>, unindo voluntários em torno de
+                    uma missão maior.
                 </p>
                 <p>
-                    <strong>Mais de 50 anos de história</strong>, o Lar do Caminho transformou-se em uma <strong>referência</strong> de acolhimento que vai <strong>muito além de um abrigo</strong> convencional. Diferente de instituições temporárias, aqui construímos uma base sólida de respeito e dignidade, onde cada criança é vista em sua individualidade.
-                    <strong>Atuamos desde 1974</strong> como uma <strong>Grande Família</strong>, oferecendo não apenas um teto, mas o suporte psicológico e educacional necessário para <strong>curar feridas do passado</strong> e preparar esses jovens para um <strong>futuro de autonomia</strong>. É esse cuidado dedicado e ininterrupto que nos torna <strong>um verdadeiro lar</strong>.
+                    <strong>Mais de 50 anos de história</strong>, o Lar do Caminho transformou-se em uma
+                    <strong>referência</strong> de acolhimento que vai <strong>muito além de um abrigo</strong>
+                    convencional. Diferente de instituições temporárias, aqui construímos uma base sólida de respeito e
+                    dignidade, onde cada criança é vista em sua individualidade.
+                    <strong>Atuamos desde 1974</strong> como uma <strong>Grande Família</strong>, oferecendo não apenas
+                    um teto, mas o suporte psicológico e educacional necessário para <strong>curar feridas do
+                        passado</strong> e preparar esses jovens para um <strong>futuro de autonomia</strong>. É esse
+                    cuidado dedicado e ininterrupto que nos torna <strong>um verdadeiro lar</strong>.
                 </p>
             </article>
         </section>
- 
+
         <section id="parceiros">
             <figure id="parceiros-imagem">
                 <img src="source/assets/images/crianca catarrenta.svg" alt="Criança" />
             </figure>
- 
+
             <article id="parceiros-conteudo">
                 <h2>Alguns de nossos parceiros</h2>
- 
+
                 <ul class="lista-parceiros">
                     <li class="parceiro-item">
                         <figure class="parceiro-logo">
@@ -113,10 +127,11 @@
                         </figure>
                         <article class="parceiro-info">
                             <h3>Any Ita</h3>
-                            <p>Projetos completos de reforma. Mais de 400 apartamentos entregues, com mais de 550 imóveis no portfólio.</p>
+                            <p>Projetos completos de reforma. Mais de 400 apartamentos entregues, com mais de 550
+                                imóveis no portfólio.</p>
                         </article>
                     </li>
- 
+
                     <li class="parceiro-item">
                         <figure class="parceiro-logo">
                             <img src="source/assets/images/big_format_infovels.svg" alt="Big Format Infovels" />
@@ -126,7 +141,7 @@
                             <p>Fabricam cartões para palcos, shows e eventos.</p>
                         </article>
                     </li>
- 
+
                     <li class="parceiro-item">
                         <figure class="parceiro-logo">
                             <img src="source/assets/images/feira_escandinava.svg" alt="Feira Escandinava" />
@@ -139,27 +154,33 @@
                 </ul>
             </article>
         </section>
- 
+
         <section id="nosso-proposito">
             <figure id="proposito-imagem">
                 <img src="source/assets/images/3 1.svg" alt="Criança feliz" />
             </figure>
- 
+
             <article id="proposito-texto">
                 <h2>Nosso Propósito</h2>
                 <p>
-                    <strong>Acolhemos, com amor e cuidado,</strong> crianças e adolescentes em situação de vulnerabilidade. Acreditamos que <strong>toda criança merece se desenvolver plenamente</strong> em um ambiente seguro, que a estimule com carinho e respeito à sua história.
+                    <strong>Acolhemos, com amor e cuidado,</strong> crianças e adolescentes em situação de
+                    vulnerabilidade. Acreditamos que <strong>toda criança merece se desenvolver plenamente</strong> em
+                    um ambiente seguro, que a estimule com carinho e respeito à sua história.
                 </p>
                 <p>
-                    Com <strong>portas sempre abertas</strong>, equipe dedicada e voluntários comprometidos, somamos esforços para <strong>atender cada criança em sua individualidade</strong> — garantindo não apenas abrigo, mas suporte emocional, educação e perspectiva de futuro. É com esse cuidado ininterrupto que <strong>transformamos vidas</strong> e tornamos o mundo um lugar melhor, <strong>uma criança de cada vez</strong>.
+                    Com <strong>portas sempre abertas</strong>, equipe dedicada e voluntários comprometidos, somamos
+                    esforços para <strong>atender cada criança em sua individualidade</strong> — garantindo não apenas
+                    abrigo, mas suporte emocional, educação e perspectiva de futuro. É com esse cuidado ininterrupto que
+                    <strong>transformamos vidas</strong> e tornamos o mundo um lugar melhor, <strong>uma criança de cada
+                        vez</strong>.
                 </p>
             </article>
         </section>
- 
+
         <section id="dados">
             <h2 class="section-title">Em números</h2>
             <h3 class="section-subtitle">O que já conquistamos juntos</h3>
- 
+
             <ul id="dados-grid">
                 <li class="dado-card">
                     <span class="dado-icone">
@@ -167,33 +188,36 @@
                     </span>
                     <strong class="dado-numero">+12.000</strong>
                     <p class="dado-label">Refeições servidas por ano</p>
-                    <span class="dado-desc">Alimentação nutritiva garantida todos os dias para nossas crianças e adolescentes.</span>
+                    <span class="dado-desc">Alimentação nutritiva garantida todos os dias para nossas crianças e
+                        adolescentes.</span>
                 </li>
- 
+
                 <li class="dado-card dado-destaque">
                     <span class="dado-icone">
                         <i class="fa-solid fa-hand-holding-dollar"></i>
                     </span>
                     <strong class="dado-numero">R$ 850 mil</strong>
                     <p class="dado-label">Em doações recebidas em 2023</p>
-                    <span class="dado-desc">Cada centavo aplicado diretamente no cuidado e desenvolvimento dos acolhidos.</span>
+                    <span class="dado-desc">Cada centavo aplicado diretamente no cuidado e desenvolvimento dos
+                        acolhidos.</span>
                 </li>
- 
+
                 <li class="dado-card">
                     <span class="dado-icone">
                         <i class="fa-solid fa-children"></i>
                     </span>
                     <strong class="dado-numero">+500</strong>
                     <p class="dado-label">Crianças atendidas por ano</p>
-                    <span class="dado-desc">Crianças e adolescentes em situação de vulnerabilidade recebendo cuidado integral.</span>
+                    <span class="dado-desc">Crianças e adolescentes em situação de vulnerabilidade recebendo cuidado
+                        integral.</span>
                 </li>
             </ul>
         </section>
- 
+
         <section id="galeria">
             <h2 class="section-title">Galeria</h2>
             <h3 class="section-subtitle">Momentos que marcam</h3>
- 
+
             <ul id="galeria-grid">
                 <li class="galeria-item galeria-destaque">
                     <img src="source/assets/images/nosso_lar.svg" alt="Crianças do Lar do Caminho" />
@@ -217,7 +241,7 @@
                 </li>
             </ul>
         </section>
- 
+
         <section id="doacao">
             <h2 class="section-title">Quero Doar</h2>
             <h3 class="section-subtitle">Faca sua doacao</h3>
@@ -227,17 +251,17 @@
             </p>
 
             <ul class="valores">
-                <li><button type="button" data-modal="modal_10">R$10</button></li>
-                <li><button type="button" data-modal="modal_30">R$30</button></li>
-                <li><button type="button" data-modal="modal_100">R$100</button></li>
-                <li><button type="button" data-modal="modal_outro">Outro valor</button></li>
+                <button type="button" data-modal="modal_10">R$10</button>
+                <button type="button" data-modal="modal_30">R$30</button>
+                <button type="button" data-modal="modal_100">R$100</button>
+                <button type="button" data-modal="modal_outro">Outro valor</button>
             </ul>
 
-            <button type="button" class="btn-fazer-doacao">Fazer doacao</button>
-
-            <section id="modal_10" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal_10_titulo" aria-hidden="true">
+            <section id="modal_10" class="modal-overlay" role="dialog" aria-modal="true"
+                aria-labelledby="modal_10_titulo" aria-hidden="true">
                 <article class="modal-box">
-                    <button type="button" class="modal-fechar" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="modal-fechar" aria-label="Fechar"><i
+                            class="fa-solid fa-xmark"></i></button>
                     <section class="modal-conteudo">
                         <figure class="modal-qr">
                             <img src="source/assets/images/qr_pix_10.png" alt="QR Code Pix para doacao de R$ 10">
@@ -246,15 +270,18 @@
                         <article class="modal-texto">
                             <span class="modal-kicker">Doacao via Pix</span>
                             <h3 id="modal_10_titulo">Obrigado pela sua doacao de R$ 10!</h3>
-                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao garante acolhimento, alimentacao e educacao para nossas criancas.</p>
+                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao
+                                garante acolhimento, alimentacao e educacao para nossas criancas.</p>
                         </article>
                     </section>
                 </article>
             </section>
 
-            <section id="modal_30" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal_30_titulo" aria-hidden="true">
+            <section id="modal_30" class="modal-overlay" role="dialog" aria-modal="true"
+                aria-labelledby="modal_30_titulo" aria-hidden="true">
                 <article class="modal-box">
-                    <button type="button" class="modal-fechar" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="modal-fechar" aria-label="Fechar"><i
+                            class="fa-solid fa-xmark"></i></button>
                     <section class="modal-conteudo">
                         <figure class="modal-qr">
                             <img src="source/assets/images/qr_pix_30.png" alt="QR Code Pix para doacao de R$ 30">
@@ -263,15 +290,18 @@
                         <article class="modal-texto">
                             <span class="modal-kicker">Doacao via Pix</span>
                             <h3 id="modal_30_titulo">Obrigado pela sua doacao de R$ 30!</h3>
-                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao garante acolhimento, alimentacao e educacao para nossas criancas.</p>
+                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao
+                                garante acolhimento, alimentacao e educacao para nossas criancas.</p>
                         </article>
                     </section>
                 </article>
             </section>
 
-            <section id="modal_100" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal_100_titulo" aria-hidden="true">
+            <section id="modal_100" class="modal-overlay" role="dialog" aria-modal="true"
+                aria-labelledby="modal_100_titulo" aria-hidden="true">
                 <article class="modal-box">
-                    <button type="button" class="modal-fechar" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="modal-fechar" aria-label="Fechar"><i
+                            class="fa-solid fa-xmark"></i></button>
                     <section class="modal-conteudo">
                         <figure class="modal-qr">
                             <img src="source/assets/images/qr_pix_100.png" alt="QR Code Pix para doacao de R$ 100">
@@ -280,24 +310,29 @@
                         <article class="modal-texto">
                             <span class="modal-kicker">Doacao via Pix</span>
                             <h3 id="modal_100_titulo">Obrigado pela sua doacao de R$ 100!</h3>
-                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao garante acolhimento, alimentacao e educacao para nossas criancas.</p>
+                            <p>Aponte a camera do seu banco para o QR Code ao lado para concluir. Cada contribuicao
+                                garante acolhimento, alimentacao e educacao para nossas criancas.</p>
                         </article>
                     </section>
                 </article>
             </section>
 
-            <section id="modal_outro" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal_outro_titulo" aria-hidden="true">
+            <section id="modal_outro" class="modal-overlay" role="dialog" aria-modal="true"
+                aria-labelledby="modal_outro_titulo" aria-hidden="true">
                 <article class="modal-box">
-                    <button type="button" class="modal-fechar" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="modal-fechar" aria-label="Fechar"><i
+                            class="fa-solid fa-xmark"></i></button>
                     <section class="modal-conteudo">
                         <figure class="modal-qr">
-                            <img src="source/assets/images/qr_pix_outro.png" alt="QR Code Pix para doacao de qualquer valor">
+                            <img src="source/assets/images/qr_pix_outro.png"
+                                alt="QR Code Pix para doacao de qualquer valor">
                             <figcaption>Pix - qualquer valor</figcaption>
                         </figure>
                         <article class="modal-texto">
                             <span class="modal-kicker">Doacao via Pix</span>
                             <h3 id="modal_outro_titulo">Obrigado por escolher doar!</h3>
-                            <p>Escaneie o QR Code ao lado e informe o valor que desejar no aplicativo do seu banco. Cada contribuicao garante acolhimento, alimentacao e educacao para nossas criancas.</p>
+                            <p>Escaneie o QR Code ao lado e informe o valor que desejar no aplicativo do seu banco. Cada
+                                contribuicao garante acolhimento, alimentacao e educacao para nossas criancas.</p>
                         </article>
                     </section>
                 </article>
@@ -329,9 +364,11 @@
             <nav class="footer-col" aria-label="Redes sociais">
                 <h4>Redes Sociais</h4>
                 <ul class="redes-icones">
-                    <li><a href="https://www.facebook.com/LarDoCaminho" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.instagram.com/lardocaminho.oficial/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <a href="https://www.facebook.com/LarDoCaminho" target="_blank" rel="noopener noreferrer"
+                        aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/lardocaminho.oficial/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                 </ul>
             </nav>
         </section>
@@ -397,6 +434,26 @@
                 document.querySelectorAll('.modal-overlay.open').forEach(fecharModal);
             }
         });
+
+        const spyLinks = document.querySelectorAll('.nav-item');
+        const spySections = document.querySelectorAll('#home, #nossa-historia, #parceiros');
+
+        function ativarNav(id) {
+            spyLinks.forEach(function (link) {
+                link.classList.toggle('active', link.getAttribute('href') === '#' + id);
+            });
+        }
+
+        const navObserver = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) ativarNav(entry.target.id);
+            });
+        }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+
+        spySections.forEach(function (section) {
+            navObserver.observe(section);
+        });
     </script>
 </body>
+
 </html>
