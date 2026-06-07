@@ -1,14 +1,6 @@
-/* ==========================================================================
-   Lar do Caminho — Folha de estilos principal
-   ========================================================================== */
-
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* --------------------------------------------------------------------------
-   Tokens de design (fonte única de verdade)
-   -------------------------------------------------------------------------- */
 :root {
-    /* Tipografia */
     --font-body: 'Poppins', sans-serif;
     --font-display: 'Fraunces', serif;
 
@@ -43,9 +35,6 @@
     --radius-pill: 999px;
 }
 
-/* --------------------------------------------------------------------------
-   Base / reset complementar
-   -------------------------------------------------------------------------- */
 * {
     font-family: var(--font-body);
     margin: 0;
@@ -85,9 +74,6 @@ img {
     display: inline-flex;
 }
 
-/* --------------------------------------------------------------------------
-   Componentes reutilizáveis
-   -------------------------------------------------------------------------- */
 .btn-default {
     border: none;
     display: inline-flex;
@@ -159,7 +145,7 @@ img {
 
 /* --------------------------------------------------------------------------
    Cabeçalho e navegação
-   -------------------------------------------------------------------------- */
+    */
 header {
     width: 100%;
     padding: 16px var(--shell-padding);
@@ -258,9 +244,7 @@ header {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Início (#home)
-   -------------------------------------------------------------------------- */
+/* Seção: Início (#home) */
 #home {
     display: flex;
     align-items: center;
@@ -434,9 +418,7 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Nossa História (#nossa-historia)
-   -------------------------------------------------------------------------- */
+/* Seção: Nossa História (#nossa-historia) */
 #nossa-historia {
     display: flex;
     align-items: center;
@@ -511,9 +493,6 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Parceiros (#parceiros)
-   -------------------------------------------------------------------------- */
 #parceiros {
     background-color: var(--color-white);
     background-image: radial-gradient(700px 360px at 12% 0%, rgba(1, 74, 142, 0.05), transparent 65%);
@@ -523,7 +502,6 @@ header {
 }
 
 #parceiros-imagem {
-    width: 400px;
     flex-shrink: 0;
     margin: 0;
     position: relative;
@@ -629,9 +607,6 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Nosso Propósito (#nosso-proposito)
-   -------------------------------------------------------------------------- */
 #nosso-proposito {
     display: flex;
     flex-direction: row-reverse;
@@ -708,9 +683,6 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Em números (#dados)
-   -------------------------------------------------------------------------- */
 #dados {
     background: transparent;
     text-align: center;
@@ -812,9 +784,6 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Galeria (#galeria)
-   -------------------------------------------------------------------------- */
 #galeria {
     background-color: var(--color-white);
     background-image: radial-gradient(800px 400px at 90% 100%, rgba(1, 74, 142, 0.06), transparent 65%);
@@ -905,9 +874,6 @@ header {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Seção: Quero Doar (#doacao)
-   -------------------------------------------------------------------------- */
 #doacao {
     position: relative;
     background-image: linear-gradient(160deg, var(--color-blue) 0%, var(--color-blue-800) 100%);
@@ -1016,9 +982,6 @@ header {
     box-shadow: 0 20px 40px rgba(245, 225, 0, 0.5);
 }
 
-/* --------------------------------------------------------------------------
-   Rodapé
-   -------------------------------------------------------------------------- */
 footer {
     background-image: linear-gradient(180deg, var(--color-blue-700) 0%, var(--color-blue-900) 100%);
 }
@@ -1121,9 +1084,6 @@ footer {
     }
 }
 
-/* --------------------------------------------------------------------------
-   Modais de doação
-   -------------------------------------------------------------------------- */
 .modal-overlay {
     position: fixed;
     inset: 0;
